@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechBlog - Your Tech Journey</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1 class="logo">TechBlog</h1>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="mailto:24f1001920@ds.study.iitm.ac.in">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Welcome to TechBlog</h2>
+          <p>
+            Discover the latest in web development, programming, and technology
+          </p>
+          <a href="blog.html" class="cta-btn">Read Latest Posts</a>
+        </div>
+      </section>
+
+      <section class="featured-posts">
+        <div class="container">
+          <h3>Featured Posts</h3>
+          <div class="posts-grid" id="featured-posts">
+            <!-- Featured posts will be loaded here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 TechBlog. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="data/blogs.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

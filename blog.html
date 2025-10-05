@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Posts - TechBlog</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1 class="logo">TechBlog</h1>
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html" class="active">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="blog-header">
+        <div class="container">
+          <h2>All Blog Posts</h2>
+          <p>Explore our collection of tech articles and tutorials</p>
+        </div>
+      </section>
+
+      <section class="blog-showcase">
+        <div class="container">
+          <div class="search-filter">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Search posts..."
+            />
+            <select id="category-filter">
+              <option value="">All Categories</option>
+              <option value="Web Development">Web Development</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="CSS">CSS</option>
+              <option value="React">React</option>
+              <option value="Node.js">Node.js</option>
+            </select>
+          </div>
+
+          <div class="posts-grid" id="all-posts">
+            <!-- All posts will be loaded here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 TechBlog. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="data/blogs.js"></script>
+    <script src="js/script.js"></script>
+    <a href="mailto:24f1001920@ds.study.iitm.ac.in">send mail></a>
+  </body>
+</html>
